@@ -1,0 +1,31 @@
+:root{
+    --ngjyra-primare: #22254b;
+    --ngjyra-sekondare: #696fad;
+}
+
+
+body{
+    background-color: var(--ngjyra-primare);
+    margin: 0;
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--ngjyra-sekondare);
+
+}
+
+.search{
+    background-color: transparent;
+    border: 2px solid var(--ngjyra-primare);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+}
+.search::placeholder{
+    color: #fff;
+}
